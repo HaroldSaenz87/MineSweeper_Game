@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Project_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="instructions">Instructions</string>
+    <string name="game">Game</string>
+    <string name="settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="Settings">Settings</string>
+    <string name="Game">Game</string>
+    <string name="logo_of_game">logo of game</string>
+    <string name="minesweeper">MINESWEEPER</string>
+    <string name="_1_tap_or_click_on_title_to_reveal_what_s_underneath">1. Tap or click on title to reveal what\'s underneath.</string>
+    <string name="_2_if_it_s_a_number_it_tells_you_how_many_mines_are_touching_that_tile">2. If it\'s a number, it tells you how many mines are touching that tile.</string>
+    <string name="_3_use_the_numbers_to_deduce_where_the_mines_are_hidden">3. Use the numbers to deduce where the mines are hidden.</string>
+    <string name="_4_long_press_to_place_a_flag_on_a_tile_you_think_contains_a_mine">4. Long press to place a flag on a tile you think contains a mine.</string>
+    <string name="_5_keep_uncovering_safe_tiles_until_all_non_mine_tiles_are_revealed_to_win_the_game">5. Keep uncovering safe tiles until all non-mine tiles are revealed to win the game!</string>
+    <string name="how_to_play">How to Play:</string>
+    <string name="mine">Mine</string>
+    <string name="suspected">Suspected</string>
+    <string name="uncovered">Uncovered</string>
+    <string name="covered">Covered</string>
+    <string name="cell_settings">Cell Settings:</string>
+    <string name="mines">Mines</string>
+    <string name="logo">logo</string>
+    <string name="columns">Columns</string>
+    <string name="rows">Rows</string>
+    <string name="board_settings">Board Settings:</string>
+    <string name="apply">Apply</string>
+    <string name="just_a_logo">just a logo</string>
+</resources>

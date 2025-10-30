@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/title_Instructions">
+
+    <fragment
+        android:id="@+id/title_Instructions"
+        android:name="com.example.project_2.Title_Instructions"
+        android:label="fragment_title__instructions"
+        tools:layout="@layout/fragment_title__instructions" >
+        <action
+            android:id="@+id/action_title_Instructions_to_game"
+            app:destination="@id/game" />
+        <action
+            android:id="@+id/action_title_Instructions_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/game"
+        android:name="com.example.project_2.Game"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_game_to_title_Instructions"
+            app:destination="@id/title_Instructions" />
+        <action
+            android:id="@+id/action_game_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.project_2.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settings_to_game"
+            app:destination="@id/game" />
+        <action
+            android:id="@+id/action_settings_to_title_Instructions"
+            app:destination="@id/title_Instructions" />
+    </fragment>
+</navigation>
