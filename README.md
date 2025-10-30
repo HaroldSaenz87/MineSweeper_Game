@@ -1,6 +1,7 @@
 # MINESWEEPER Android App
 
 A customizable version of the classic **Minesweeper** built in **Java** using **Android Studio**.
+
 Tap to reveal, long press to flag, and try not to hit a mine!
 
 ---
