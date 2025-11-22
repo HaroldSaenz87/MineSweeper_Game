@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+
         BottomNavigationView bnv = findViewById(R.id.bottomNav);
         NavHostFragment nhf = (NavHostFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentContainerView);
         NavController controller = nhf.getNavController();
